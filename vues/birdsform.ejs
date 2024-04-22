@@ -1,0 +1,11 @@
+
+<%-include('header.ejs')%>
+
+<h1><%= txt %></h1>
+
+<form method="post" action="record">
+    <input type="text" name="espece">
+    <input type="text" name="envergure">
+    <input type="number" min="0.00" name="poids">
+    <input type="submit" value="record">
+</form>
