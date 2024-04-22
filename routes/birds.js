@@ -29,10 +29,11 @@ router.post('/record',(req,res)=>{
              .catch( (err)=> res.send('error recording'))
 })
 
-
-
+console.log("hello world");
+console.log("test");
 //module export
 module.exports=router
+//------
 
 
 
