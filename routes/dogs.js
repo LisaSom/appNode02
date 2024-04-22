@@ -17,6 +17,8 @@ router.get('/formulaire',(req,res)=>{
 router.post('/record',(req,res)=>{
 console.log(req.body)
 })
+
+console.log("test github");
 //module export
 module.exports=router
 
